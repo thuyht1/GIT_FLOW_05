@@ -1,10 +1,12 @@
 package selenium;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class TC_02_CheckTitle {
+	WebDriver driver;
   @Test
   public void TC_01() {
   }
